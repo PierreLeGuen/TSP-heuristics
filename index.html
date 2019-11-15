@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Heuristics - Travelling Salesman Problem</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,bold' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+			<div>
+				<div id="settings">
+					<h2><i class="fa fa-cog"></i> SETTINGS</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td>Cities</td>
+								<td>
+								<input type="text" id="cities" value="10"></input>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<div style="margin: 15px auto; width: 100px; border: 1px solid black;">
+						<button id="go">Solve</button>
+					</div>
+				</div>
+				<canvas id="tsp-canvas" width="700" height="600">
+					HTML5 Unsupported.
+				</canvas>
+			</div>
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="map.js"></script>
+		<script type="text/javascript" src="utils.js"></script>
+
+	</body>
+</html>
