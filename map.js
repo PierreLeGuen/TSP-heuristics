@@ -10,7 +10,8 @@ function createCities(mapWidth, mapHeight, nbCities) {
 
 function drawMap(canvas, cities, nbCities) {
     let canvas_ctx = canvas.getContext("2d");
-    canvas_ctx.clearRect(0,0, canvas.width, canvas.height);
+	canvas_ctx.clearRect(0,0, canvas.width, canvas.height);
+	console.log(canvas.width)
 	// Cities
 	for(var i=0; i<nbCities; i++)
 	{
